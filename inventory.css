@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b69685;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height coverage */
+}
+
+.container {
+    background-color: #8d6e63;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px; /* Better responsiveness */
+    width: 90%; /* Take up 90% of the available width */
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Occupy full container width */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #6d4c41;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #4e342e; /* Brown text color */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4e342e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #3e2723;
+}
+
+button[type="button"]:last-child {
+    margin-top: 10px;
+    background-color: #6d4c41;
+}
+
+.mytable {
+    width: 100%; /* Occupy full container width */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+.mytable th, .mytable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #97825b;
+    background-color: #d7ccc8; /* Light brown background color */
+    color: #4e342e; /* Brown text color */
+}
+
+.mytable th {
+    background-color: #6d4c41; /* Dark brown for header */
+}
+
+.mytable td {
+    background-color: #8d6e63; /* Darker brown for data cells */
+}
+
+.mytable td a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px; /* Adjust margin for links */
+}
+
+.mytable td a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
